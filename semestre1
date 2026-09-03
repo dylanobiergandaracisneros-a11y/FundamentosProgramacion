@@ -1,0 +1,170 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyN7FIDCATeMOEuq/38wzVoE",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/dylanobiergandaracisneros-a11y/FundamentosProgramacion/blob/main/semestre1\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 21,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Kvk9YYO4eLHt",
+        "outputId": "539acdea-24ad-45a3-b163-5f3a3aaeba49"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "El valor de x es True\n"
+          ]
+        }
+      ],
+      "source": [
+        "X = 5\n",
+        "X= \"hola mundo\"\n",
+        "X = True\n",
+        "print(\"El valor de x es\", X )\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "base = int(input(\"Dame la base del triangulo\") )\n",
+        "altura= int(input(\"dame la altura del triangulo\") )\n",
+        "area = (base * altura)/2\n",
+        "print (\"el area del triangulo es\", area)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "iCUd-l2JlJFO",
+        "outputId": "f0e19f77-25d4-463a-f8ad-658f9fe05b4c"
+      },
+      "execution_count": 13,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Dame la base del triangulo10\n",
+            "dame la altura del triangulo20\n",
+            "el area del triangulo es 100.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "variable1= 30\n",
+        "variable2= 50\n",
+        "if variable1 > variable2:\n",
+        "   print(\"la variable 1 es mayor a la variable 2\")\n",
+        "else:\n",
+        "   print(\"la variable 2 es mayor a la variable 1\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "yXUU9FNko1Nt",
+        "outputId": "6ef043b8-c75e-45c8-c6c7-112d3a97be4b"
+      },
+      "execution_count": 14,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "la variable 2 es mayor a la variable 1\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "variable1= 30\n",
+        "variable2= 50\n",
+        "if variable1 > variable2:\n",
+        "   print( variable1, \"es mayor que\", variable2 )\n",
+        "else:\n",
+        "   print( variable2, \"es mayor que\", variable1 )"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "0g4WnrpxqCrt",
+        "outputId": "8fe7f517-d98c-46be-cd68-c1009e689d8a"
+      },
+      "execution_count": 27,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "50 es mayor que 30\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "variable1= 70\n",
+        "variable2= 70\n",
+        "if variable1 > variable2:\n",
+        "   print( variable1, \"es mayor que\", variable2 )\n",
+        "elif variable1 == variable2:\n",
+        "   print( variable1, \"es igual que\", variable2)\n",
+        "else:\n",
+        "   print( variable2, \"es mayor que\", variable1 )"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "OmbXmsmqsJav",
+        "outputId": "1faef703-aab6-42b2-c753-e6270265a692"
+      },
+      "execution_count": 7,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "70 es igual que 70\n"
+          ]
+        }
+      ]
+    }
+  ]
+}

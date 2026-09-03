@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyN7FIDCATeMOEuq/38wzVoE",
+      "authorship_tag": "ABX9TyP+CqKMulA/sajyOXfU5vt2",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -165,6 +165,87 @@
           ]
         }
       ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "edad= int(input(\"Dame tu edad\"))\n",
+        "if edad <= 10:\n",
+        "   print(\"Eres un niño\")\n",
+        "elif edad <= 18:\n",
+        "   print(\"Eres un adolescente\")\n",
+        "elif edad <= 30:\n",
+        "   print(\"Eres un joven adulto\")\n",
+        "elif edad <= 67:\n",
+        "   print(\"eres un adulto\")\n",
+        "elif edad <= 100:\n",
+        "   print(\"eres un anciano\")\n",
+        "else:\n",
+        "   print(\"edad incorrecta\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ak68-wuGv3Gu",
+        "outputId": "f43cfa56-1fd6-4996-c63c-697966a945f1"
+      },
+      "execution_count": 24,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Dame tu edad65\n",
+            "eres un adulto\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "edad= int(input(\"Dame tu edad\"))\n",
+        "if edad >= 100:\n",
+        "   print(\"Eres un anciano\")\n",
+        "elif edad >= 67:\n",
+        "   print(\"Eres un adulto\")\n",
+        "elif edad >= 30:\n",
+        "   print(\"Eres un joven adulto\")\n",
+        "elif edad >= 18:\n",
+        "   print(\"Eres un adolescente\")\n",
+        "elif edad >= 10:\n",
+        "   print(\"Eres un niño\")\n",
+        "else:\n",
+        "   print(\"edad incorrecta\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ShA1Uc6Gx7K4",
+        "outputId": "dd6b06af-d8ba-48c7-9d58-eae77ff7b8bb"
+      },
+      "execution_count": 38,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Dame tu edad100\n",
+            "Eres un anciano\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "SaIRVdfUwKl_"
+      },
+      "execution_count": null,
+      "outputs": []
     }
   ]
 }

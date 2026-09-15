@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyP2Ji3lt9UUvmJHgHHmMQLn",
+      "authorship_tag": "ABX9TyNhRdGSeVJORMgTX7YEH26n",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -23,12 +23,12 @@
         "colab_type": "text"
       },
       "source": [
-        "<a href=\"https://colab.research.google.com/github/dylanobiergandaracisneros-a11y/FundamentosProgramacion/blob/main/unidad1/Sistema%20de%20Prestamos%20Versi%C3%B3n\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+        "<a href=\"https://colab.research.google.com/github/dylanobiergandaracisneros-a11y/FundamentosProgramacion/blob/main/unidad1\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
       ]
     },
     {
       "cell_type": "code",
-      "execution_count": 5,
+      "execution_count": null,
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/",
@@ -140,6 +140,41 @@
         "        print(\"Estado: \", estados[i])\n",
         "        print(\"\\n-----------------------\")\n"
       ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# 2 Buscar por software\n",
+        "elif opcion == 2:\n",
+        "    programa = input( \"\\nIngrese el software que desea buscar: \")\n",
+        "    print(\"\\n---RESULLTADOS---\")\n",
+        "    encontrado = False\n",
+        "    for i in range(len(computadoras))\n",
+        "     # la funcion (lower) convierte a minuscula el texto, de esta forma nos aseguramos que el texto a buscar y la informacion de las listas\n",
+        "     #este en minuscula y no tengamos problema de que no encuentra  un programa por que este escrito de froma diferente usando masyusculas y minusculas\n",
+        "     if programa.lower() un software[i].lower():\n",
+        "         print(\"ID:\", computadiras [i])\n",
+        "         print(\"Aula:\", aulas [i])\n",
+        "         print (\"Software:\", software [i])\n",
+        "         print (\"Estado:\", estado[i])\n",
+        "\n",
+        "if encontrado == False:\n",
+        "    print(\"No se encontraron computadoras con ese software\")\n"
+      ],
+      "metadata": {
+        "id": "GQRvJHNAfox8"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "rr8dTmsmhqId"
+      },
+      "execution_count": null,
+      "outputs": []
     }
   ]
 }
